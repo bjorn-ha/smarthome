@@ -12,8 +12,8 @@ I'll start off with a general overview of all the equipment used for my smart ho
 <a name="devices"></a>
 <div align="center">
   <h4>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#battery">
-      Batteries
+    <a href="https://github.com/bjorn-ha/smarthome/#networking">
+      Networking
     </a>
     <span> | </span>
     <a href="https://github.com/CCOSTAN/Home-AssistantConfig#networking">
@@ -81,6 +81,7 @@ I'll start off with a general overview of all the equipment used for my smart ho
 <table align="center" border="0">
 <tr><td colspan="4">
 
+#### <a name="networking"></a>Networking
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|

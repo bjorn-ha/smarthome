@@ -145,7 +145,7 @@ For this reason I would not recommend buying Nest to integrate into any home aut
 
 ### <a name="audio"></a>Audio
 
-<p><font size="3">For my audio solution I have chosen Denon Heos over Sonos purely because of a personal taste for the sound quality of the Heos over Sonos. Heos integration into Home Assistant is getting better with every update, but purely on the integration part, Sonos is still superior over Heos. 
+<p><font size="3">For my audio solution I have chosen Denon Heos over Sonos purely because of the sound quality of the Heos over Sonos (very personal opinion of course). Heos integration into Home Assistant is getting better with every update, but purely on the integration part, Sonos is still superior over Heos. 
   
 Also, one of the best features of the Heos system is the battery-operated Heos 1, they are normally used in the Kitchen where they are also being charged. But when we want to watch a movie we can use the two as surround satellite speakers. When we go for a swim we take one of them with us! (Battery time approx 7 hrs)</p>
 

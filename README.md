@@ -137,9 +137,16 @@ Also, one of the best features of the Heos system is the battery-operated Heos 1
 
 ### <a name="multimedia"></a>Multi-Media
 
-<p><font size="3">As a sidenote, I bought the CloudKey before I had a 24/7 server running in my home. I wouldn't buy one now as Docker on my Synology NAS and also my Hassio server would be able to run the Unifi Controller Software in a seperate container.
+<p><font size="3">Other Multi-Media equipment I have integrated into hassio:
+</p>
   
-Furthermore there are some cheaper switches at different end-points in my home. I might replace them in the future for Ubiquity switches as well.
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Sony Bravia KDL55X8500D | **1X** | [Generic 4K 55" Bravia Television](https://www.sony-mea.com/en/electronics/support/televisions-projectors-lcd-tvs-android-/kd-55x8500d/specifications) |<img src="./img/sonytv.jpg"  height="100px" />|
+| Apple TV 4K | **2X** | [Apple TV](https://www.apple.com/apple-tv-4k/) |<img src="./img/atv.jpg"  height="100px" />|
+| Google Home Mini | **1X** | [Google Home Mini](https://store.google.com/us/product/google_home_mini?hl=en-US) |<img src="./img/gmini.jpg"  height="100px" />|
+
+<p><font size="3">The Google home mini sits on a cabinet with the microphone disabled. It's only used for Text to Speech (TTS) notifications. The moment the Heos system is supporting TTS I will remove it from my setup.
 </p>
 
 ## <a name="software"></a>Software

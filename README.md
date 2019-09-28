@@ -5,11 +5,28 @@
 </h1>
 
 <p><font size="3">
-I decided to create this page to give something back to the great Home Assistant community. Almost all my knowledge is from different users who shared their projects. A good reason to share your own! Hopefully you can find some inspiration in what I automated in my home.
+I decided to create this page to give something back to the great Home Assistant community. I learned a lot from shared projects of other users, a good reason to share your own! Hopefully you can find some inspiration in how I automated my home.
   
-I'll start off with a general overview of all the equipment used for my smart home.</p> 
+I'll be posting how-to's for different projects in the near future. First of all I will list all my hardware and software used in my home automation system.</p> 
 
-## Devices
+<a name="menu"></a>
+<div align="center">
+  <h4>
+    <a href="https://github.com/bjorn-ha/smarthome/#hardware">
+      Hardware
+    </a>
+    <span> | </span>
+     <a href="https://github.com/bjorn-ha/smarthome/#software">
+      Software
+    </a>
+    <span> | </span>
+      <a href="https://github.com/bjorn-ha/smarthome/#projects">
+      Projects
+    </a>
+  </h4>
+</div>
+
+## <a name="hardware"></a>Hardware
 
 <a name="devices"></a>
 <div align="center">
@@ -21,61 +38,37 @@ I'll start off with a general overview of all the equipment used for my smart ho
     <a href="https://github.com/bjorn-ha/smarthome/#servers">
       Servers
     </a>
-    <span> | </span>
-    <a href="https://github.com/bjorn-ha/smarthome/#lights">
-      Lights
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#mobiledevices">
-      Mobile Devices
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#nest">
-      Nest
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#voice">
-      Voice
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#hubs">
+<span> | </span>
+    <a href="https://github.com/bjorn-ha/smarthome/#hubs">
       Hubs
     </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#lights">
-      Lights
+<span> | </span>    
+     <a href="https://github.com/bjorn-ha/smarthome/#multimedia">
+      Multi-Media
     </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#switches">
+<span> | </span>   
+      <a href="https://github.com/bjorn-ha/smarthome/#mobile">
+      Mobile Devices
+    </a>
+<span> | </span>     
+      <a href="https://github.com/bjorn-ha/smarthome/#switches">
       Switches
     </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#landscaping">
-      Landscaping
+<span> | </span>     
+      <a href="https://github.com/bjorn-ha/smarthome/#lights">
+      Lights
     </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#LED">
-      DIY LED Lights
+<span> | </span>          
+       <a href="https://github.com/bjorn-ha/smarthome/#remotes">
+      Remotes
     </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#garage">
-      Garage
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#TV">
-      TV Streaming
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#security">
-      Security
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#cameras">
-      Cameras
-    </a>
-    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#sensors">
+<span> | </span>     
+       <a href="https://github.com/bjorn-ha/smarthome/#sensors">
       Sensors
+    </a>
+<span> | </span>    
+       <a href="https://github.com/bjorn-ha/smarthome/#controllers">
+      Controllers
     </a>
   </h4>
 </div>
@@ -122,4 +115,5 @@ Furthermore there are some cheaper switches at different end-points in my home. 
 | Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
 | Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
 
-
+## <a name="software"></a>Software
+## <a name="projects"></a>Projects

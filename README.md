@@ -85,22 +85,10 @@ I'll start off with a general overview of all the equipment used for my smart ho
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
 | Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-
-
-
-| ABB - SA/S12.16.5.1   | **1X** | [Switch Act, 12F 16-C-Load](https://new.abb.com/products/ABB2TAZ710121R5161) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/SA-S12.16.5.1.jpg"  height="100px" />|
-| ABB - SA/S4.16.2.1    | **1X** | [Switch Act, 4F, 16A](https://new.abb.com/products/ABB2TAZ710041R2161) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/ABB-SA-S4.16.2.1.jpg"  height="100px" />|
-| ABB - JRA/S4.230.5.1  | **2X** | [Blind/RolShtAct.TravD,M,4f](https://new.abb.com/products/ABB2CDG110125R0011) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/JRA-S4.230.5.1.jpg"  height="100px" />|
-| Hager - TXM620D       | **1X** | [Output module 20x 16A (C)/230V~, KNX](https://www.hager.co.uk/product-catalogue/building-automation/easy-e./easy-e./easy-outputs/txm620d/75824.htm) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/txm620d_1.jpg" height="100px" />|
-| Hager - TYA628C       | **1X** |  [Output device for 8 shutters or blinds 230V~](https://www.hager.co.uk/product-catalogue/building-automation/system-s./system-s./system-blinds/tya628c/77809.htm?Suchbegriffe=TYA628C) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/TYA628C.jpg"   height="100px" />|
-| Hager - TXA207C       | **1X** |  [Output 10 -fold 16A](http://www.hager.co.in/product-catalogue/building-automation-wiring-accessories/building-automation/output-module/switching-actuators/txa207c/9195.htm) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/TXA207C.jpg" height="100px" />|
-| Theben - DM 4 T       | **4X** |  [4-way universal dimmer actuator FIX2](https://www.theben.de/en/dm-4-t-knx-4940275) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/theben%20DM4T.jpg"   height="100px" />|
-
-
+| Ubiquity Unifi US-8-60W 8P Switch | **2X** | [Fully managed, 8 Port Switch, 4 Port PoE.](https://www.ui.com/unifi-switching/unifi-switch-8/) |<img src="./img/ub_switch.png"  height="100px" />|
+| Ubiquity Unifi CloudKey | **1X** | [Host for the Unifi Controller Software.](https://www.ui.com/unifi/unifi-cloud-key/) |<img src="./img/ub_cloudkey.jpg"  height="100px" />|
+| Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
+| Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
 
 #### <a name="battery"></a>Battery Backups - [UPS Blog write-up](http://www.vCloudInfo.com/2017/06/home-protection-from-power-outages-sort.html)<a href="https://github.com/CCOSTAN/Home-AssistantConfig#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a>
 </td></tr>

@@ -43,6 +43,10 @@ I'll be posting how-to's for different projects in the near future. First of all
       Hubs
     </a>
 <span> | </span>    
+     <a href="https://github.com/bjorn-ha/smarthome/#climate">
+      Climate
+    </a>
+<span> | </span>    
      <a href="https://github.com/bjorn-ha/smarthome/#audio">
       Audio
     </a>
@@ -123,6 +127,18 @@ Furthermore, there are some cheaper switches at different end-points in my home.
 
 <p><font size="3">The Conbee II is running on a hassio add-on called DeconZ. More information about DeconZ in the <a href="https://github.com/bjorn-ha/smarthome/#software">software</a> section of this page</p>
 
+### <a name="climate"></a>Climate
+
+<p><font size="3">I have a few Nest Thermostats around the house. They control our HVAC systems. The Nest products are really high build quality and I like the look of them.
+  
+Unfortunattely, Google decided that the Nest for Developers program (needed to integrate them in HA) will be stopped. Current users can keep on using the developers account, but nobody knows for how long. New users can not create a developers account. Hopefully, Google will release an API for their Google Home/Assistant. But this is not expected to happen anytime soon.
+
+For this reason I would not recommend buying Nest to integrate into any home automation project.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Nest 3rd Generation Learning Thermostat | **3X** | [Nest 3rd Generation Learning Thermostat](https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US) |<img src="./img/nest.jpg"  height="100px" />|
+
 ### <a name="audio"></a>Audio
 
 <p><font size="3">For my audio solution I have chosen Denon Heos over Sonos purely because of a personal taste for the sound quality of the Heos over Sonos. Heos integration into Home Assistant is getting better with every update, but purely on the integration part, Sonos is still superior over Heos. 
@@ -192,7 +208,7 @@ I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi w
 
 ### <a name="remotes"></a>Remotes
 
-<p><font size="3">I still have some remotes around the house. The Ikea Tradfri remotes are not used for to switch lights anymore. They all control our multi-room audio system. The Philips hue is at the front door entrance, just in case some presence detection didn't work. Also, it is used by sleep-in guests to switch on/off scenes.</p>
+<p><font size="3">I still have some remotes around the house. The Ikea Tradfri remotes are not used to switch lights anymore. They all control our multi-room audio system. The Philips hue is at the front door entrance, just in case some presence detection didn't work. Also, it is used by sleep-in guests to switch on/off scenes.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -223,9 +239,20 @@ I used RF sensors for motion and door sensors before. But I am currently in the 
 | Generic Float Switch | **1X** | [Float Switch for pool water level](https://www.amazon.com/uxcell-Stainless-Switch-Vertical-Liquid/dp/B07DYWR3RP/ref=sr_1_24?keywords=float+switch+stainless&qid=1569708077&sr=8-24) |<img src="./img/g_float.jpg"  height="100px" />|
 
 <p><font size="3">
-<i>** There are Amazon links in above sensor list. None of them are affliate. </i>
+<i>** There are Amazon links in above list. None of them are affliate. </i>
 </p>
-  
+
+### <a name="controllers"></a>Controllers
+
+<p><font size="3">As almost every home automation builder, ESP8266 or ESP32 controllers are the way to go. They are flexible, small, cheap and there is a lot of support/community developed firmware for them. I used the NodeMCU in almost all my projects. It is very easy to flash them, they are very small for the number of pins you get and you can power them by any USB charger.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| NodeMCU v2 | **6X** | [NodeMCU v2 Development Board](https://www.amazon.com/ESP8266-microcontroller-NodeMCU-WiFi-CP2102/dp/B071WRD25D/ref=sr_1_11_sspa?crid=CWVSDBSVGD13&keywords=nodemcu+v2&qid=1569709636&sprefix=nodemcu%2Caps%2C314&sr=8-11-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU0tJNjc0WkgwMzJWJmVuY3J5cHRlZElkPUEwNTg1ODMwMTZDS0NOOUVaU0hLQyZlbmNyeXB0ZWRBZElkPUEwNTExMDcxM0QzVTkwT1RCWUk0OCZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |<img src="./img/node.jpg"  height="100px" />|
+
+<p><font size="3">
+<i>** There are Amazon links in above list. None of them are affliate. </i>
+</p>
   
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

@@ -273,7 +273,7 @@ For this reason I would not recommend buying Nest to integrate into any home aut
 
 ### <a name="camera"></a>Camera's
 
-<p><font size="3">I like the Foscam brand for Camera's. I currently two of them installed, but used more of them before. Foscam has it's own integration into HA. So very easy to set-up.</p>
+<p><font size="3">I like the Foscam brand for Camera's. I currently have two of them installed. Foscam has it's own integration into HA. So is very easy to set-up.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|

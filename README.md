@@ -5,9 +5,11 @@
 </h1>
 
 <p><font size="3">
-I decided to create this page to give something back to the great Home Assistant community. I learned a lot from shared projects of other users, a good reason to share your own! Hopefully, you can find some inspiration in how I automated my home.
+My smart home started as a small hobby and grew quickly in two years time. I started with only a few smart lights and now have an almost fully automated home.  
 
-I'll be posting how-to's for different projects in the near future. First of all, I will list all my hardware and software used in my home automation system.</p> 
+I decided to create this page to give something back to the great Home Assistant community. I learned a lot from shared projects by other users, a good reason to share your own! Hopefully, you can find some inspiration in how I automated my home.
+
+I'll be posting how-to's for different projects in the near future. First of all, on this page I will list all my hardware and software used in my home automation system.</p> 
 
 <a name="menu"></a>
 <div align="center">
@@ -93,7 +95,7 @@ I'll be posting how-to's for different projects in the near future. First of all
 
 <p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happy with the purchase. A good and stable WiFi network is a very important first step in your setup. More and more devices are using WiFi in your home. "Simple" WiFi routers might give you problems when your setup starts to grow.
   
-The following equipment makes sure that all off my smart devices have perfect coverage:</p>
+The following equipment makes sure that all off my smart devices have a perfect connection:</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -110,7 +112,7 @@ Furthermore, there are some cheaper switches at different end-points in my home.
 
 ### <a name="servers"></a>Servers
 
-<p><font size="3">I used a Raspberry Pi 3B to run Hassio for about four months. By then it became too slow, and I wanted a more reliable solution.
+<p><font size="3">I used a Raspberry Pi 3 to run Hassio for about four months. By then it became too slow, and I wanted a more reliable solution. I tried to run Hassio in a container on the Synology, but I wasn't happy with the reliability. For that reason, I decided to buy a separate server for my Hassio installation.
 </p>
 
 | Device        |Quantities           |More Info          |Image    |
@@ -123,7 +125,7 @@ Furthermore, there are some cheaper switches at different end-points in my home.
 
 ### <a name="hubs"></a>Hubs
 
-<p><font size="3">As most of my devices are directly connected to WiFi, I only needed a hub to use my Zigbee Ikea Tradfri Lights. I've tried both the Ikea Tradfri and Philips Hue bridges for a while. With the Ikea bridge, everything worked "ok" in combination with Home Assistant, but it was unstable and needed a restart every day. With the Philips Hue bridge, I was able to control the Ikea bulbs, but I noted a very annoying flickering in each of the lights. After a tip from some users, I decided to buy a Conbee USB stick to use directly in the NUC to setup a Zigbee network. This one is working great since. Another great feature about this solution is that you are able to connect any zigbee device from any brand into one network.</p>
+<p><font size="3">As most of my devices are directly connected to WiFi, I only needed a hub to use my Zigbee Ikea Tradfri Lights. I've tried both the Ikea Tradfri and Philips Hue bridges for a while. With the Ikea bridge, everything worked "ok" in combination with Home Assistant, but it was unstable and needed a restart every day. With the Philips Hue bridge, I was able to control the Ikea lights, but I noted a very annoying flickering in each of the lights. After a tip from some users, I decided to buy a Conbee USB stick to use directly in the NUC to setup a Zigbee network. This one is working great since. Another great feature about this solution is that you are able to connect any zigbee device from any brand into one network.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -159,7 +161,7 @@ Also, one of the best features of the Heos system is the battery-operated Heos 1
 
 ### <a name="multimedia"></a>Multi-Media
 
-<p><font size="3">Other Multi-Media equipment I have integrated into hassio:
+<p><font size="3">Other Multi-Media equipment integrated into HA:
 </p>
   
 | Device        |Quantities           |More Info          |Image    |
@@ -212,12 +214,12 @@ I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi w
 
 ### <a name="remotes"></a>Remotes
 
-<p><font size="3">I still have some remotes around the house. The Ikea Tradfri remotes are not used to switch lights anymore. They all control our multi-room audio system. The Philips hue is at the front door entrance, just in case some presence detection didn't work. Also, it is used by sleep-in guests to switch on/off scenes.</p>
+<p><font size="3">I still have some remotes around the house. The Ikea Tradfri remotes are not used to switch lights anymore. They all control our multi-room audio system. The Philips Hue Dimmer is at the front door entrance, just in case some presence detection didn't work. Also, it is used by sleep-in guests to switch on/off scenes.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
-| Ikea Tradri Remote | **3X** | [Tradfri Remote Control](https://www.ikea.com/us/en/p/tradfri-remote-control-00443130/) |<img src="./img/t_remote.jpg"  height="100px" />|
-| Philips Hue Dimmer Switch | **1X** | [Philips Hue Dimmer Switch](https://www2.meethue.com/en-us/p/hue-dimmer-switch/046677473372) |<img src="./img/h_remote.jpg"  height="100px" />|
+| Ikea Tradri Remote | **3X** | [Tradfri Remote Control (Zigbee)](https://www.ikea.com/us/en/p/tradfri-remote-control-00443130/) |<img src="./img/t_remote.jpg"  height="100px" />|
+| Philips Hue Dimmer Switch | **1X** | [Philips Hue Dimmer Switch (Zigbee)](https://www2.meethue.com/en-us/p/hue-dimmer-switch/046677473372) |<img src="./img/h_remote.jpg"  height="100px" />|
 
 <p><font size="3">More information on how to use the Ikea Remotes for different tasks than switching Ikea Bulbs will be in the <a href="https://github.com/bjorn-ha/smarthome/#projects">projects</a> section of this page soon.</p></p>
 

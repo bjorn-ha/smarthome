@@ -163,7 +163,7 @@ The iPad Mini is in a wall mount installed in the living room. It's being used w
 
 ### <a name="switches"></a>Switches
 
-<p><font size="3">One of the first projects within my smart home was to replace some general switches with WiFi connected switches. As I didn't had a lot of experience yet and a lot of info was available for the Sonoff basic switches, this was my way to go. Most of them are operational already for about two years and are still working without issues.</p>
+<p><font size="3">One of the first projects within my smart home was to replace some general switches with WiFi connected switches. As I didn't have a lot of experience yet and a lot of info was available for the Sonoff basic switches, this was my way to go. Most of them are operational already for about two years and are still working without issues.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -176,7 +176,9 @@ The iPad Mini is in a wall mount installed in the living room. It's being used w
 
 ### <a name="lights"></a>Lights
 
-<p><font size="3">Light TEXT</p>
+<p><font size="3">Up till now I really like the Ikea Tradfri lights. I have chosen them mostly for their lower price and wide range of products. The only down-sides of the lights is that they don't dim as far as Philips Hue lights do. Also changing color temperature and brightness can't be done in one go but needs two different commands from HA. I will post a work-around for this in the projects folder soon.
+  
+I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi without using the Yeelight app/cloud. This can be done with the YeeLight integration of HA without any need of flashing custom firmware/soldering.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -185,6 +187,17 @@ The iPad Mini is in a wall mount installed in the living room. It's being used w
 | Ikea Tradfri LED Driver | **2X** | [Ikea Tradfri Led driver for integrated lighting in kitchen](https://www.ikea.com/us/en/search/products/?q=tradfri) |<img src="./img/t_driver.jpg"  height="100px" />|
 | Xiaomi Yeelight Led Strip | **2X** | [Yeelight RGB LED Strip](https://www.yeelight.com/en_US/product/pitaya-plus) |<img src="./img/y_strip.png"  height="100px" />|
 | Xiaomi Yeelight RGB Bulb | **1X** | [Yeelight RGB LED Bulb](https://www.yeelight.com/en_US/product/lemon-color) |<img src="./img/y_bulb.jpg"  height="100px" />|
+
+### <a name="remotes"></a>Remotes
+
+<p><font size="3">I still have some remotes around the house. The Ikea Tradfri remotes are not used for to switch lights anymore. They all control our multi-room audio system. The Philips hue is at the front door entrance, just in case some presence detection didn't work. Also, it is used by sleep-in guests to switch on/off scenes.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Ikea Tradri Remote | **3X** | [Tradfri Remote Control](https://www.ikea.com/us/en/p/tradfri-remote-control-00443130/) |<img src="./img/t_remote.jpg"  height="100px" />|
+| Philips Hue Dimmer Switch | **1X** | [Philips Hue Dimmer Switch](https://www2.meethue.com/en-us/p/hue-dimmer-switch/046677473372) |<img src="./img/h_remote.jpg"  height="100px" />|
+
+<p><font size="3">More information on how to use the Ikea Remotes for different tasks than switching Ikea Bulbs will be in the <a href="https://github.com/bjorn-ha/smarthome/#projects">projects</a> section of this page soon.</p></p>
 
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

@@ -149,5 +149,20 @@ Also, one of the best features of the Heos system is the battery-operated Heos 1
 <p><font size="3">The Google home mini sits on a cabinet with the microphone disabled. It's only used for Text to Speech (TTS) notifications. The moment the Heos system is supporting TTS I will remove it from my setup.
 </p>
 
+### <a name="mobile"></a>Mobile Devices
+
+<p><font size="3">This is a list of Mobile devices connected to the setup. Most of them are used to control the HA App (beta 2.0). The two mobile phones form the backbone of my presence detection.
+  
+I have my iPad mini in a wall mount installed in the living room. Is used whenever we are awake and works great.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Apple iPhone | **2X** | [iPhones](https://www.apple.com/iphone/) |<img src="./img/iphone.jpg"  height="100px" />|
+| Apple iPad | **3X** | [Multiple version of the iPad](https://www.apple.com/ipad/) |<img src="./img/ipad.png"  height="100px" />|
+| Vogel's  PTS 1216 TabLock | **1X** | [Wall Mount for the iPad Mini 3](https://www.vogels.com/en/p/pts-1216-tablock-for-ipad-mini-1-2-3) |<img src="./img/tablock.jpg"  height="100px" />|
+
+
+
+
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

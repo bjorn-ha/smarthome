@@ -105,7 +105,7 @@ The following equipment makes sure that all off my smart devices have a perfect 
 | Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
 | Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
 
-<p><font size="3">As a side note, I bought the CloudKey before I had a 24/7 server running in my home. I wouldn't buy one now as Docker on my Synology NAS and also my Hassio server would be able to run the Unifi Controller Software in a separate container.
+<p><font size="3">As a side note, I bought the CloudKey before I had a server running 24/7. I wouldn't buy one now as Docker on my Synology NAS and also my Hassio server would be able to run the Unifi Controller Software in a separate container.
   
 Furthermore, there are some cheaper switches at different end-points in my home. I might replace them in the future for Ubiquity switches as well.
 </p>

@@ -43,6 +43,10 @@ I'll be posting how-to's for different projects in the near future. First of all
       Hubs
     </a>
 <span> | </span>    
+     <a href="https://github.com/bjorn-ha/smarthome/#audio">
+      Audio
+    </a>
+<span> | </span>    
      <a href="https://github.com/bjorn-ha/smarthome/#multimedia">
       Multi-Media
     </a>
@@ -117,17 +121,21 @@ Furthermore there are some cheaper switches at different end-points in my home. 
 
 <p><font size="3">The Conbee II is running on a hassio add-on called DeconZ. More information about DeconZ in the <a href="https://github.com/bjorn-ha/smarthome/#software">software</a> section of this page</p>
 
-### <a name="multimedia"></a>Multi Media
+### <a name="audio"></a>Audio
 
-<p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happhy with the purchase. The following equipment makes sure that all off my smart devices have perfect coverage:</p>
+<p><font size="3">For my audio solution I have choosen Denon Heos over Sonos purely because of a personal taste for the sound quality of the Heos over Sonos. Heos integration into Home Assistant is getting better with every update, but purely on the integration part Sonos is still superior over Heos. 
+  
+Also, one of the best features of the Heos system are the battery operated Heos 1, they are normally used in the Kitchen where they are being charged. But when we want to watch a move we can use the two as surround sattelite speakers. When we go for a swim we take one of them with us! (Battery time approx 7 hrs)</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
-| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-| Ubiquity Unifi US-8-60W 8P Switch | **2X** | [Fully managed, 8 Port Switch, 4 Port PoE.](https://www.ui.com/unifi-switching/unifi-switch-8/) |<img src="./img/ub_switch.png"  height="100px" />|
-| Ubiquity Unifi CloudKey | **1X** | [Host for the Unifi Controller Software.](https://www.ui.com/unifi/unifi-cloud-key/) |<img src="./img/ub_cloudkey.jpg"  height="100px" />|
-| Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
-| Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
+| Denon Heos 1 HS2 | **2X** | [Small Wifi Multi-room Speaker](https://www.denon.co.uk/uk/heos/heos-1-portable-wireless-speakers) |<img src="./img/heos1.jpg"  height="100px" />|
+| Denon Heos 1 Go-Pack | **2X** | [Battery and splash guard for Heos 1](https://www.denon.co.uk/uk/heos/heos-1-go-packhs2) |<img src="./img/heosbatt.jpg"  height="100px" />|
+| Denon Heos 7 HS2 | **1X** | [Large Wifi Multi-room Speaker](https://www.denon.co.uk/uk/heos/heos-7-wireless-speaker-system) |<img src="./img/heos7.jpg"  height="100px" />|
+| Denon Heos Bar | **1X** | [Soundbar and receiver in one (4x HDMI in)](https://www.denon.co.uk/uk/heos/heos-bar) |<img src="./img/heosbar.jpg"  height="100px" />|
+| Denon Heos Subwoofer | **1X** | [Subwoofer](https://www.denon.co.uk/uk/heos/heos-subwoofer) |<img src="./img/heossub.jpg"  height="100px" />|
+
+### <a name="multimedia"></a>Multi-Media
 
 <p><font size="3">As a sidenote, I bought the CloudKey before I had a 24/7 server running in my home. I wouldn't buy one now as Docker on my Synology NAS and also my Hassio server would be able to run the Unifi Controller Software in a seperate container.
   

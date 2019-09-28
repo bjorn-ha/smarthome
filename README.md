@@ -117,6 +117,22 @@ Furthermore there are some cheaper switches at different end-points in my home. 
 
 <p><font size="3">The Conbee II is running on a hassio add-on called DeconZ. More information about DeconZ in the <a href="https://github.com/bjorn-ha/smarthome/#software">software</a> section of this page</p>
 
+### <a name="multimedia"></a>Multi Media
+
+<p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happhy with the purchase. The following equipment makes sure that all off my smart devices have perfect coverage:</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi US-8-60W 8P Switch | **2X** | [Fully managed, 8 Port Switch, 4 Port PoE.](https://www.ui.com/unifi-switching/unifi-switch-8/) |<img src="./img/ub_switch.png"  height="100px" />|
+| Ubiquity Unifi CloudKey | **1X** | [Host for the Unifi Controller Software.](https://www.ui.com/unifi/unifi-cloud-key/) |<img src="./img/ub_cloudkey.jpg"  height="100px" />|
+| Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
+| Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
+
+<p><font size="3">As a sidenote, I bought the CloudKey before I had a 24/7 server running in my home. I wouldn't buy one now as Docker on my Synology NAS and also my Hassio server would be able to run the Unifi Controller Software in a seperate container.
+  
+Furthermore there are some cheaper switches at different end-points in my home. I might replace them in the future for Ubiquity switches as well.
+</p>
 
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

@@ -80,11 +80,18 @@ I'll start off with a general overview of all the equipment used for my smart ho
 
 #### <a name="networking"></a>Networking
 
-<p><font size="3">For all my networking needs I am using equipment of Ubiquity Unifi. Very solid performance up till now and very happhy with the purchase. The following equipment makes sure that all off my smart devices have perfect coverage:
+<p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happhy with the purchase. The following equipment makes sure that all off my smart devices have perfect coverage:</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
-| Ubiquity Unifi Security Gateway (Router) | **1X** | [PowerSupply,640mA](https://new.abb.com/products/ABB2CDG110167R0011) |<img src="https://github.com/bjorn-ha/smarthome/img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+
+
+
 | ABB - SA/S12.16.5.1   | **1X** | [Switch Act, 12F 16-C-Load](https://new.abb.com/products/ABB2TAZ710121R5161) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/SA-S12.16.5.1.jpg"  height="100px" />|
 | ABB - SA/S4.16.2.1    | **1X** | [Switch Act, 4F, 16A](https://new.abb.com/products/ABB2TAZ710041R2161) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/ABB-SA-S4.16.2.1.jpg"  height="100px" />|
 | ABB - JRA/S4.230.5.1  | **2X** | [Blind/RolShtAct.TravD,M,4f](https://new.abb.com/products/ABB2CDG110125R0011) |<img src="https://github.com/adonno/Home-AssistantConfig/blob/master/docs/JRA-S4.230.5.1.jpg"  height="100px" />|

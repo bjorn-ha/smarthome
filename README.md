@@ -70,7 +70,11 @@ I'll be posting how-to's for different projects in the near future. First of all
        <a href="https://github.com/bjorn-ha/smarthome/#controllers">
       Controllers
     </a>
-  </h4>
+<span> | </span>     
+       <a href="https://github.com/bjorn-ha/smarthome/#camera">
+      Camera's
+    </a>
+</h4>
 </div>
 
 ### <a name="networking"></a>Networking
@@ -103,17 +107,16 @@ Furthermore there are some cheaper switches at different end-points in my home. 
 <p><font size="3">I am amazed about the performace difference between the NUC and the Rpi. I decided to buy the celeron based NUC as I have most of my other containers running on the Synology already. With this in mind I am only running Hassio with HassOS on the NUC (directly etched on the SSD with etcher).
 </p>
 
-### <a name="lights"></a>Lights
+### <a name="hubs"></a>Hubs
 
-<p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happhy with the purchase. The following equipment makes sure that all off my smart devices have perfect coverage:</p>
+<p><font size="3">As most of my devices are directly connected to WiFi, I only needed a hub to use my Zigbee Ikea Tradfri Lights. I've tried both the Ikea Tradfri and Philips Hue bridges for a while. With the Ikea bridge, everything worked "ok" in combination with Home Assistant, but it was unstable and needed a restart every day. With the Philips Hue bridge I was able to control the Ikea bulbs, but I noted a very annoying flickering in each of the lights. After a tip from some users I decided to buy a Conbee USB stick to use directly in the NUC to setup a Zigbee network. This one is working great since. Another great feature about this solution is that you are able to connect any zigbee device from any brand into one network.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
-| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
-| Ubiquity Unifi US-8-60W 8P Switch | **2X** | [Fully managed, 8 Port Switch, 4 Port PoE.](https://www.ui.com/unifi-switching/unifi-switch-8/) |<img src="./img/ub_switch.png"  height="100px" />|
-| Ubiquity Unifi CloudKey | **1X** | [Host for the Unifi Controller Software.](https://www.ui.com/unifi/unifi-cloud-key/) |<img src="./img/ub_cloudkey.jpg"  height="100px" />|
-| Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
-| Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
+| Dresden Elektronik Conbee II | **1X** | [Zigbee USB Router](https://phoscon.de/en/conbee2) |<img src="./img/conbee2.jpg"  height="100px" />|
+
+<p><font size="3">The Conbee II is running on a hassio add-on called DeconZ. More information about DeconZ in the <a href="https://github.com/bjorn-ha/smarthome/#software">software</a> section of this page</p>
+
 
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

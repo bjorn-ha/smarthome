@@ -83,7 +83,9 @@ I'll be posting how-to's for different projects in the near future. First of all
 
 ### <a name="networking"></a>Networking
 
-<p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happy with the purchase. The following equipment makes sure that all off my smart devices have perfect coverage:</p>
+<p><font size="3">For all my networking needs I am using equipment made by Ubiquity, called Unifi. Very solid performance up till now and very happy with the purchase. A good and stable WiFi network is a very important first step in your setup. More and more devices are using WiFi in your home. "Simple" WiFi routers might give you problems when your setup starts to grow.
+  
+The following equipment makes sure that all off my smart devices have perfect coverage:</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -199,5 +201,31 @@ I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi w
 
 <p><font size="3">More information on how to use the Ikea Remotes for different tasks than switching Ikea Bulbs will be in the <a href="https://github.com/bjorn-ha/smarthome/#projects">projects</a> section of this page soon.</p></p>
 
+### <a name="sensors"></a>Sensors
+
+<p><font size="3">The heart of every home automation system: Sensors! If your setup doesn't know the state in and around your house, there is not much you can automate. There are many different sensors available in the market, for every project you might think of, there is a sensor. 
+  
+I mainly use sensors to know where people are in the house (motion), if they are sleeping (bed-occupancy), measure light and temperatures.
+
+I will make how-to's about most of my sensors and the way I integrated them in HA. They will be in the <a href="https://github.com/bjorn-ha/smarthome/#projects">projects</a> section of this page soon. 
+
+I used RF sensors for motion and door sensors before. But I am currently in the process of changing all of them to Zigbee devices. I won't mention the RF sensors anymore.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Xiaomi Aqara Motion Detector | **4X** | [Xiaomi Aqara Motion Detector (Zigbee)](https://www.aqara.com/en/human_motion_sensor.html) |<img src="./img/a_motion.jpg"  height="100px" />|
+| Xiaomi Aqara Door/Window Detector| **3X** | [Xiaomi Aqara Door/Window Detector (Zigbee)](https://www.aqara.com/en/door_and_window_sensor.html) |<img src="./img/a_door.jpg"  height="100px" />|
+| Xiaomi Aqara Temperature/Humidity | **3X** | [Xiaomi Aqara Temperature/Humidity (Zigbee), used in rooms without Nest Thermostat](https://www.aqara.com/en/temperature_humidity_sensor.html) |<img src="./img/a_temp.jpg"  height="100px" />|
+| Ideal Security Pressure Mat | **2X** | [Pressure Mat for Bed Occupancy Sensor](https://www.amazon.com/dp/B00GUNX7WY/ref=cm_sw_r_cp_ep_dp_ECPvybFXY2ZBQ) |<img src="./img/i_mat.jpg"  height="100px" />|
+| Generic 50 KG Load Cells/HX711 | **1X** | [Load Cell for Bed Occupancy Sensor](https://www.amazon.com/Half-Bridge-Weighting-Amplifier-Arduino-WIshioT/dp/B07B4DNJ2L/ref=sr_1_2_sspa?keywords=hx711+load+cell&qid=1569707561&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRFA3MjJFVEtGWVEzJmVuY3J5cHRlZElkPUEwOTUxMjAxMUo0OElGNU1HRzJLQSZlbmNyeXB0ZWRBZElkPUEwODA3OTY1MjhNMDkyQ09TQ1pPTCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |<img src="./img/g_loadcell.jpg"  height="100px" />|
+| Generic BH1750 Lux Sensor | **2X** | [Light Intensity Sensor](https://www.amazon.com/HiLetgo-BH1750FVI-Digital-Intensity-Arduino/dp/B01DLG4NZC/ref=sr_1_1_sspa?keywords=bh1750&qid=1569707705&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVE45Vjc4T0tXWVRRJmVuY3J5cHRlZElkPUEwNDg0OTY2MjgzTEE5RjJEVlk3JmVuY3J5cHRlZEFkSWQ9QTA2NjQ3NjBLQkpYSlIxWjhHRTMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) |<img src="./img/g_lx.jpg"  height="100px" />|
+| Generic DS18B20 Temperature Sensor | **1X** | [Waterproof Temperature Sensor](https://www.amazon.com/Stayhome-DS18b20-Stainless-Waterproof-Temperature/dp/B07QMV23WK/ref=sr_1_1?keywords=ds18b20+1pc&qid=1569707959&sr=8-1) |<img src="./img/g_temp.jpg"  height="100px" />|
+| Generic Float Switch | **1X** | [Float Switch for pool water level](https://www.amazon.com/uxcell-Stainless-Switch-Vertical-Liquid/dp/B07DYWR3RP/ref=sr_1_24?keywords=float+switch+stainless&qid=1569708077&sr=8-24) |<img src="./img/g_float.jpg"  height="100px" />|
+
+<p><font size="3">
+<i>** There are Amazon links in above sensor list. None of them are affliate. </i>
+</p>
+  
+  
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

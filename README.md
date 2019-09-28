@@ -132,7 +132,7 @@ Also, one of the best features of the Heos system are the battery operated Heos 
 | Denon Heos 1 HS2 | **2X** | [Small Wifi Multi-room Speaker](https://www.denon.co.uk/uk/heos/heos-1-portable-wireless-speakers) |<img src="./img/heos1.jpg"  height="100px" />|
 | Denon Heos 1 Go-Pack | **2X** | [Battery and splash guard for Heos 1](https://www.denon.co.uk/uk/heos/heos-1-go-packhs2) |<img src="./img/heosbatt.jpg"  height="100px" />|
 | Denon Heos 7 HS2 | **1X** | [Large Wifi Multi-room Speaker](https://www.denon.co.uk/uk/heos/heos-7-wireless-speaker-system) |<img src="./img/heos7.jpg"  height="100px" />|
-| Denon Heos Bar | **1X** | [Soundbar and receiver in one (4x HDMI in)](https://www.denon.co.uk/uk/heos/heos-bar) |<img src="./img/heosbar.jpg"  height="100px" />|
+| Denon Heos Bar | **1X** | [Soundbar and receiver in one (4x HDMI in)](https://www.denon.co.uk/uk/heos/heos-bar) |<img src="./img/heosbar.jpeg"  height="100px" />|
 | Denon Heos Subwoofer | **1X** | [Subwoofer](https://www.denon.co.uk/uk/heos/heos-subwoofer) |<img src="./img/heossub.jpg"  height="100px" />|
 
 ### <a name="multimedia"></a>Multi-Media

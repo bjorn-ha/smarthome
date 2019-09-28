@@ -174,5 +174,17 @@ The iPad Mini is in a wall mount installed in the living room. It's being used w
 
 <p><font size="3">All of the switches are flashed with custom firmware. More information in the <a href="https://github.com/bjorn-ha/smarthome/#software">software</a> section of this page</p></p>
 
+### <a name="lights"></a>Lights
+
+<p><font size="3">Light TEXT</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Ikea Tradri Blulbs | **9X** | [Mix of different Ikea Tradfri Bulbs](https://www.ikea.com/us/en/search/products/?q=tradfri) |<img src="./img/t_bulb.jpg"  height="100px" />|
+| Ikea Tradfri Spots | **25X** | [Mix of different Ikea Tradfri Spots](https://www.ikea.com/us/en/search/products/?q=tradfri) |<img src="./img/t_spot.jpg"  height="100px" />|
+| Ikea Tradfri LED Driver | **2X** | [Ikea Tradfri Led driver for integrated lighting in kitchen](https://www.ikea.com/us/en/search/products/?q=tradfri) |<img src="./img/t_driver.jpg"  height="100px" />|
+| Xiaomi Yeelight Led Strip | **2X** | [Yeelight RGB LED Strip](https://www.yeelight.com/en_US/product/pitaya-plus) |<img src="./img/y_strip.png"  height="100px" />|
+| Xiaomi Yeelight RGB Bulb | **1X** | [Yeelight RGB LED Bulb](https://www.yeelight.com/en_US/product/lemon-color) |<img src="./img/y_bulb.jpg"  height="100px" />|
+
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

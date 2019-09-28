@@ -9,7 +9,7 @@ My smart home started as a small hobby and grew quickly in two years time. I sta
 
 I decided to create this page to give something back to the great Home Assistant community. I learned a lot from shared projects by other users, a good reason to share your own! Hopefully, you can find some inspiration in how I automated my home.
 
-I'll be posting how-to's for different projects in the near future. First of all, on this page I will list all my hardware and software used in my home automation system.</p> 
+I'll be posting how-to's for different projects in the near future. First of all, on this page I will list all my hardware and software used in my home automation system. Instead of the term HA (Home Assistant) I'll be using hass.io as this is the software I am using. It is HA based, but has it's own operating system and add-ons.</p> 
 
 <a name="menu"></a>
 <div align="center">
@@ -137,7 +137,7 @@ Furthermore, there are some cheaper switches at different end-points in my home.
 
 <p><font size="3">I have a few Nest Thermostats around the house. They control our HVAC systems. The Nest products are really high build quality and I like the look of them.
   
-Unfortunattely, Google decided that the Nest for Developers program (needed to integrate them in HA) will be stopped. Current users can keep on using the developers account, but nobody knows for how long. New users can not create a developers account. Hopefully, Google will release an API for their Google Home/Assistant. But this is not expected to happen anytime soon.
+Unfortunattely, Google decided that the Nest for Developers program (needed to integrate them in hass.io) will be stopped. Current users can keep on using the developers account, but nobody knows for how long. New users can not create a developers account. Hopefully, Google will release an API for their Google Home/Assistant. But this is not expected to happen anytime soon.
 
 For this reason I would not recommend buying Nest to integrate into any home automation project.</p>
 
@@ -161,7 +161,7 @@ Also, one of the best features of the Heos system is the battery-operated Heos 1
 
 ### <a name="multimedia"></a>Multi-Media
 
-<p><font size="3">Other Multi-Media equipment integrated into HA:
+<p><font size="3">Other Multi-Media equipment integrated into hass.io:
 </p>
   
 | Device        |Quantities           |More Info          |Image    |
@@ -200,9 +200,9 @@ The iPad Mini is in a wall mount installed in the living room. It's being used w
 
 ### <a name="lights"></a>Lights
 
-<p><font size="3">Up till now I really like the Ikea Tradfri lights. I have chosen them mostly for their lower price and wide range of products. The only down-sides of the lights is that they don't dim as far as Philips Hue lights do. Also changing color temperature and brightness can't be done in one go but needs two different commands from HA. I will post a work-around for this in the projects folder soon.
+<p><font size="3">Up till now I really like the Ikea Tradfri lights. I have chosen them mostly for their lower price and wide range of products. The only down-sides of the lights is that they don't dim as far as Philips Hue lights do. Also changing color temperature and brightness can't be done in one go but needs two different commands from hass.io. I will post a work-around for this in the projects folder soon.
   
-I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi without using the Yeelight app/cloud. This can be done with the YeeLight integration of HA without any need of flashing custom firmware/soldering.</p>
+I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi without using the Yeelight app/cloud. This can be done with the YeeLight integration of hass.io without any need of flashing custom firmware/soldering.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -229,7 +229,7 @@ I've chosen the Xiaomi Yee Lights as they can be controlled directly over WiFi w
   
 I mainly use sensors to know where people are in the house (motion), if they are sleeping (bed-occupancy), measure light and temperatures.
 
-I will make how-to's about most of my sensors and the way I integrated them in HA. They will be in the <a href="https://github.com/bjorn-ha/smarthome/#projects">projects</a> section of this page soon. 
+I will make how-to's about most of my sensors and the way I integrated them in hass.io. They will be in the <a href="https://github.com/bjorn-ha/smarthome/#projects">projects</a> section of this page soon. 
 
 I used RF sensors for motion and door sensors before. But I am currently in the process of changing all of them to Zigbee devices. I won't mention the RF sensors anymore.</p>
 
@@ -264,7 +264,7 @@ I used RF sensors for motion and door sensors before. But I am currently in the 
 
 <p><font size="3">As said before, I like the Nest products, but:
 
-Unfortunattely, Google decided that the Nest for Developers program (needed to integrate them in HA) will be stopped. Current users can keep on using the developers account, but nobody knows for how long. New users can not create a developers account. Hopefully, Google will release an API for their Google Home/Assistant. But this is not expected to happen anytime soon.
+Unfortunattely, Google decided that the Nest for Developers program (needed to integrate them in hass.io) will be stopped. Current users can keep on using the developers account, but nobody knows for how long. New users can not create a developers account. Hopefully, Google will release an API for their Google Home/Assistant. But this is not expected to happen anytime soon.
 
 For this reason I would not recommend buying Nest to integrate into any home automation project.
 </p>
@@ -275,7 +275,7 @@ For this reason I would not recommend buying Nest to integrate into any home aut
 
 ### <a name="camera"></a>Camera's
 
-<p><font size="3">I like the Foscam brand for Camera's. I currently have two of them installed. Foscam has it's own integration into HA. So is very easy to set-up.</p>
+<p><font size="3">I like the Foscam brand for Camera's. I currently have two of them installed. Foscam has it's own integration into hass.io. So is very easy to set-up.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|

@@ -143,7 +143,7 @@ Also, one of the best features of the Heos system is the battery-operated Heos 1
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
 | Sony Bravia KDL55X8500D | **1X** | [Generic 4K 55" Bravia Television](https://www.sony-mea.com/en/electronics/support/televisions-projectors-lcd-tvs-android-/kd-55x8500d/specifications) |<img src="./img/sonytv.jpg"  height="100px" />|
-| Apple TV 4K | **2X** | [Apple TV](https://www.apple.com/apple-tv-4k/) |<img src="./img/atv.jpg"  height="100px" />|
+| Apple TV 4K | **2X** | [Apple TV](https://www.apple.com/apple-tv-4k/) |<img src="./img/atv.jpeg"  height="100px" />|
 | Google Home Mini | **1X** | [Google Home Mini](https://store.google.com/us/product/google_home_mini?hl=en-US) |<img src="./img/gmini.jpg"  height="100px" />|
 
 <p><font size="3">The Google home mini sits on a cabinet with the microphone disabled. It's only used for Text to Speech (TTS) notifications. The moment the Heos system is supporting TTS I will remove it from my setup.

@@ -153,7 +153,7 @@ Also, one of the best features of the Heos system is the battery-operated Heos 1
 
 <p><font size="3">This is a list of Mobile devices connected to the setup. Most of them are used to control the HA App (beta 2.0). The two mobile phones form the backbone of my presence detection.
   
-I have my iPad mini in a wall mount installed in the living room. Is used whenever we are awake and works great.</p>
+The iPad Mini is in a wall mount installed in the living room. It's being used whenever we are awake and home. Works great.</p>
 
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
@@ -161,8 +161,18 @@ I have my iPad mini in a wall mount installed in the living room. Is used whenev
 | Apple iPad | **3X** | [Multiple version of the iPad](https://www.apple.com/ipad/) |<img src="./img/ipad.png"  height="100px" />|
 | Vogel's  PTS 1216 TabLock | **1X** | [Wall Mount for the iPad Mini 3](https://www.vogels.com/en/p/pts-1216-tablock-for-ipad-mini-1-2-3) |<img src="./img/tablock.jpg"  height="100px" />|
 
+### <a name="switches"></a>Switches
 
+<p><font size="3">One of the first projects within my smart home was to replace some general switches with WiFi connected switches. As I didn't had a lot of experience yet and a lot of info was available for the Sonoff basic switches, this was my way to go. Most of them are operational already for about two years and are still working without issues.</p>
 
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Sonoff Basic R1/R2 | **8X** | [Sonoff Basic](https://sonoff.tech/product/wifi-diy-smart-switches/basicr2) |<img src="./img/s_basic.jpg"  height="100px" />|
+| Sonoff POW R2 | **2X** | [Sonoff POW R2 (used to switch 15A devices)](https://sonoff.tech/product/wifi-diy-smart-switches/powr2) |<img src="./img/s_pow.jpg"  height="100px" />|
+| Sonoff S20 | **5X** | [Sonoff S20](https://sonoff.tech/product/wifi-smart-plugs/s20) |<img src="./img/s_s20.jpg"  height="100px" />|
+| Sonoff 4CH Pro R2 | **1X** | [Sonoff 4CH Pro, used to switch lower voltage](https://sonoff.tech/product/wifi-diy-smart-switches/4ch-r2-pro-r2) |<img src="./img/s_4ch.jpg"  height="100px" />|
+
+<p><font size="3">All of the switches are flashed with custom firmware. More information in the <a href="https://github.com/bjorn-ha/smarthome/#software">software</a> section of this page</p></p>
 
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

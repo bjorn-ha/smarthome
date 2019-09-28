@@ -1,3 +1,3 @@
 # Bjorn's Smart Home
 
-<center><img>https://twitter.com/home_assistant/photo</img></center>
+<img src="img/ha_logo.jpg" width="100%" style="center">

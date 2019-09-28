@@ -16,8 +16,8 @@ I'll start off with a general overview of all the equipment used for my smart ho
       Networking
     </a>
     <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#networking">
-      Networking
+    <a href="https://github.com/bjorn-ha/smarthome/#servers">
+      Servers
     </a>
     <span> | </span>
     <a href="https://github.com/CCOSTAN/Home-AssistantConfig#alexa">
@@ -89,6 +89,22 @@ I'll start off with a general overview of all the equipment used for my smart ho
 | Ubiquity Unifi CloudKey | **1X** | [Host for the Unifi Controller Software.](https://www.ui.com/unifi/unifi-cloud-key/) |<img src="./img/ub_cloudkey.jpg"  height="100px" />|
 | Ubiquity Unifi AP AC Lite | **3X** | [Wifi Access Point.](https://www.ui.com/unifi/unifi-ap-ac-lite/) |<img src="./img/ub_ap.png"  height="100px" />|
 | Ubiquity Unifi UAP AC-M | **1X** | [Outdoor Wifi Access Point (connected as regular AP, not mesh.](https://unifi-mesh.ui.com/#antennas) |<img src="./img/ub_outdoor.jpg"  height="100px" />|
+
+<p><font size="3">As a sidenote, I bought the CloudKey before I had a 24/7 server running in my home. I wouldn't buy one now as Docker on my Synology NAS and also my HASSIO server would be able to run the Unifi Controller Software in a seperate container.
+  
+Furthermore there are some cheaper switches at different end-points in my home. I might replace them in the future for Ubiquity switches as well.
+</p>
+
+#### <a name="servers"></a>Servers
+
+<p><font size="3">I have used a Raspberry Pi 3B to run Hassio for about four months. By then it became too slow, and I wanted a more reliable solution.
+</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Ubiquity Unifi Security Gateway | **1X** | [Secure, wired, fully managed Router.](https://www.ui.com/unifi-routing/usg/) |<img src="./img/ub_usg.png"  height="100px" />|
+| Ubiquity Unifi US-8-60W 8P Switch | **2X** | [Fully managed, 8 Port Switch, 4 Port PoE.](https://www.ui.com/unifi-switching/unifi-switch-8/) |<img src="./img/ub_switch.png"  height="100px" />|
+
 
 #### <a name="battery"></a>Battery Backups - [UPS Blog write-up](http://www.vCloudInfo.com/2017/06/home-protection-from-power-outages-sort.html)<a href="https://github.com/CCOSTAN/Home-AssistantConfig#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a>
 </td></tr>

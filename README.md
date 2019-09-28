@@ -79,6 +79,10 @@ I'll be posting how-to's for different projects in the near future. First of all
       Controllers
     </a>
 <span> | </span>     
+       <a href="https://github.com/bjorn-ha/smarthome/#safety">
+      Safety
+    </a>
+<span> | </span>     
        <a href="https://github.com/bjorn-ha/smarthome/#camera">
       Camera's
     </a>
@@ -232,7 +236,7 @@ I used RF sensors for motion and door sensors before. But I am currently in the 
 | Xiaomi Aqara Motion Detector | **4X** | [Xiaomi Aqara Motion Detector (Zigbee)](https://www.aqara.com/en/human_motion_sensor.html) |<img src="./img/a_motion.jpg"  height="100px" />|
 | Xiaomi Aqara Door/Window Detector| **3X** | [Xiaomi Aqara Door/Window Detector (Zigbee)](https://www.aqara.com/en/door_and_window_sensor.html) |<img src="./img/a_door.jpg"  height="100px" />|
 | Xiaomi Aqara Temperature/Humidity | **3X** | [Xiaomi Aqara Temperature/Humidity (Zigbee), used in rooms without Nest Thermostat](https://www.aqara.com/en/temperature_humidity_sensor.html) |<img src="./img/a_temp.jpg"  height="100px" />|
-| Ideal Security Pressure Mat | **2X** | [Pressure Mat for Bed Occupancy Sensor](https://www.amazon.com/dp/B00GUNX7WY/ref=cm_sw_r_cp_ep_dp_ECPvybFXY2ZBQ) |<img src="./img/i_mat.jpg"  height="100px" />|
+| Ideal Security SK630 Pressure Mat | **2X** | [Pressure Mat for Bed Occupancy Sensor](https://www.amazon.com/Ideal-Security-SK630-Pressure-Triggered/dp/B00GUNX7WY/ref=sr_1_1_sspa?crid=2OGOO7WFA4R7A&keywords=ideal+security+sk630+pressure+mat+alarm+with+chime&qid=1569710790&sprefix=ideal+security+pre%2Caps%2C326&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTkJOMUdCR0haWDVaJmVuY3J5cHRlZElkPUEwMjE4NDg2MjJLUFlLQ1VMNTBVQSZlbmNyeXB0ZWRBZElkPUEwMDc2NTYxQTFWTDhBQTNTTThZJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==) |<img src="./img/i_mat.jpg"  height="100px" />|
 | Generic 50 KG Load Cells/HX711 | **1X** | [Load Cell for Bed Occupancy Sensor](https://www.amazon.com/Half-Bridge-Weighting-Amplifier-Arduino-WIshioT/dp/B07B4DNJ2L/ref=sr_1_2_sspa?keywords=hx711+load+cell&qid=1569707561&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRFA3MjJFVEtGWVEzJmVuY3J5cHRlZElkPUEwOTUxMjAxMUo0OElGNU1HRzJLQSZlbmNyeXB0ZWRBZElkPUEwODA3OTY1MjhNMDkyQ09TQ1pPTCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) |<img src="./img/g_loadcell.jpg"  height="100px" />|
 | Generic BH1750 Lux Sensor | **2X** | [Light Intensity Sensor](https://www.amazon.com/HiLetgo-BH1750FVI-Digital-Intensity-Arduino/dp/B01DLG4NZC/ref=sr_1_1_sspa?keywords=bh1750&qid=1569707705&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVE45Vjc4T0tXWVRRJmVuY3J5cHRlZElkPUEwNDg0OTY2MjgzTEE5RjJEVlk3JmVuY3J5cHRlZEFkSWQ9QTA2NjQ3NjBLQkpYSlIxWjhHRTMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) |<img src="./img/g_lx.jpg"  height="100px" />|
 | Generic DS18B20 Temperature Sensor | **1X** | [Waterproof Temperature Sensor](https://www.amazon.com/Stayhome-DS18b20-Stainless-Waterproof-Temperature/dp/B07QMV23WK/ref=sr_1_1?keywords=ds18b20+1pc&qid=1569707959&sr=8-1) |<img src="./img/g_temp.jpg"  height="100px" />|
@@ -253,6 +257,28 @@ I used RF sensors for motion and door sensors before. But I am currently in the 
 <p><font size="3">
 <i>** There are Amazon links in above list. None of them are affliate. </i>
 </p>
-  
+
+### <a name="safety"></a>Safety
+
+<p><font size="3">As said before, I like the Nest products, but:
+
+Unfortunattely, Google decided that the Nest for Developers program (needed to integrate them in HA) will be stopped. Current users can keep on using the developers account, but nobody knows for how long. New users can not create a developers account. Hopefully, Google will release an API for their Google Home/Assistant. But this is not expected to happen anytime soon.
+
+For this reason I would not recommend buying Nest to integrate into any home automation project.
+</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Nest Protect | **5X** | [Nest Protect Smoke/Carbon Monoxide Detector](https://store.google.com/us/product/nest_protect_2nd_gen?hl=en-US) |<img src="./img/n_protect.jpg"  height="100px" />|
+
+### <a name="camera"></a>Camera's
+
+<p><font size="3">I like the Foscam brand for Camera's. I currently two of them installed, but used more of them before. Foscam has it's own integration into HA. So very easy to set-up.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Foscam FI9901EP | **1X** | [Foscam FI9901EP Outdoor PoE IP Camera](https://www.foscam.com/FI9901EP.html) |<img src="./img/f_outdoor.jpg"  height="100px" />|
+| Foscam R2 | **1X** | [Foscam R2 - Babymonitor](https://www.foscam.com/R2.html) |<img src="./img/f_r2.jpg"  height="100px" />|
+
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

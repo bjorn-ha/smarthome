@@ -282,5 +282,16 @@ For this reason I would not recommend buying Nest to integrate into any home aut
 | Foscam FI9901EP | **1X** | [Foscam FI9901EP Outdoor PoE IP Camera](https://www.foscam.com/FI9901EP.html) |<img src="./img/f_outdoor.jpg"  height="100px" />|
 | Foscam R2 | **1X** | [Foscam R2 - Babymonitor](https://www.foscam.com/R2.html) |<img src="./img/f_r2.jpg"  height="100px" />|
 
+### <a name="aq"></a>Air Quality
+
+<p><font size="3">I live in an area with quite a bit of polution so I wanted a few air purifiers. I've chosen two different models (capacity) of Xiaomi Air Purifiers. Integrating them in hass.io was a bit of a hassle, but all three are now working and reporting AQI, temp, humidity and filterlife remaining. Also the OLED displays and modes can be changed by using automations.</p>
+
+| Device        |Quantities           |More Info          |Image    |
+| ------------- |:-------------:|:-----:|-----------:|
+| Xiaomi Air Purifier Pro | **1X** | [Xiaomi Air Purifier Pro](https://www.mi.com/in/air2s/) |<img src="./img/m_pro.jpg"  height="100px" />|
+| Xiaomi Air Purifier 2S | **2X** | [Xiaomi Air Purifier 2S](https://www.mi.com/in/air2s/) |<img src="./img/m_2s.jpg"  height="100px" />|
+
+# Work in Progress
+
 ## <a name="software"></a>Software
 ## <a name="projects"></a>Projects

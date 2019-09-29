@@ -88,6 +88,10 @@ I'll be posting how-to's for different projects in the near future. First of all
        <a href="https://github.com/bjorn-ha/smarthome/#camera">
       Camera's
     </a>
+<span> | </span>     
+       <a href="https://github.com/bjorn-ha/smarthome/#aq">
+      Air Quality
+    </a>
 </h4>
 </div>
 
@@ -289,7 +293,7 @@ For this reason I would not recommend buying Nest to integrate into any home aut
 | Device        |Quantities           |More Info          |Image    |
 | ------------- |:-------------:|:-----:|-----------:|
 | Xiaomi Air Purifier Pro | **1X** | [Xiaomi Air Purifier Pro](https://www.mi.com/in/air2s/) |<img src="./img/m_pro.jpg"  height="100px" />|
-| Xiaomi Air Purifier 2S | **2X** | [Xiaomi Air Purifier 2S](https://www.mi.com/in/air2s/) |<img src="./img/m_2s.jpg"  height="100px" />|
+| Xiaomi Air Purifier 2S | **2X** | [Xiaomi Air Purifier 2S](https://www.mi.com/in/air2s/) |<img src="./img/m_s2.jpg"  height="100px" />|
 
 # Work in Progress
 
